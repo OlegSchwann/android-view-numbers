@@ -16,8 +16,8 @@
 При добавлении элемента нельзя пересоздавать адаптер.
 
 # Результат
-Экран со всеми цифрами.
+Экран со всеми цифрами.  
 <img src="https://raw.githubusercontent.com/OlegSchwann/android-view-numbers/master/doc/NumbersFragment.jpg"></img>
 
-Экран с выбранной цифрой.
+Экран с выбранной цифрой.  
 <img src="https://raw.githubusercontent.com/OlegSchwann/android-view-numbers/master/doc/OneNumberFragment.jpg"></img>
