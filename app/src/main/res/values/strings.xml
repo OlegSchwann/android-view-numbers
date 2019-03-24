@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">homework1</string>
+
+    <string name="number_forty_two">42</string>
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="add_number">Добавить число</string>
+</resources>
