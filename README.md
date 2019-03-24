@@ -17,7 +17,7 @@
 
 # Результат
 Экран со всеми цифрами.
-<img src="/OlegSchwann/android-view-numbers/blob/master/doc/NumbersFragment.jpg?raw=true"></img>
+<img src="https://raw.githubusercontent.com/OlegSchwann/android-view-numbers/master/doc/NumbersFragment.jpg"></img>
 
 Экран с выбранной цифрой.
-<img src="/OlegSchwann/android-view-numbers/blob/master/doc/OneNumberFragment.jpg?raw=true"></img>
+<img src="https://raw.githubusercontent.com/OlegSchwann/android-view-numbers/master/doc/OneNumberFragment.jpg"></img>
