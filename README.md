@@ -14,3 +14,10 @@
 списке. По кнопке back должен производиться возврат в список чисел.
 
 При добавлении элемента нельзя пересоздавать адаптер.
+
+# Результат
+Экран со всеми цифрами.
+<img src="/OlegSchwann/android-view-numbers/blob/master/doc/NumbersFragment.jpg?raw=true"></img>
+
+Экран с выбранной цифрой.
+<img src="/OlegSchwann/android-view-numbers/blob/master/doc/OneNumberFragment.jpg?raw=true"></img>
