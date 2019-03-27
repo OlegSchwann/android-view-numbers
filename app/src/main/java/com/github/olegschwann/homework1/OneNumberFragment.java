@@ -23,20 +23,10 @@ public class OneNumberFragment extends Fragment {
     }
 
     public void setNumber(int number, @ColorInt int color) {
-        this.number = number;
-        this.color = color;
-
         Bundle bundle = new Bundle();
         bundle.putInt("number", number);
         bundle.putInt("color", color);
         setArguments(bundle);
-
-        if (numberView == null) {
-            return;
-        }
-
-        numberView.setText(String.valueOf(this.number));
-        numberView.setTextColor(this.color);
     }
 
     @Override
