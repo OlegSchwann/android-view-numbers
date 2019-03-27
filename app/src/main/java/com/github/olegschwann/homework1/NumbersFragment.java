@@ -37,8 +37,8 @@ public class NumbersFragment extends Fragment implements OnNumberClickListener {
 
     @Override
     public void onViewCreated(@NonNull View view, @Nullable Bundle savedInstanceState) {
-        if (getArguments() != null) {
-            maxNumber = getArguments().getInt("max_number", 101);
+        if (savedInstanceState != null) {
+            maxNumber = savedInstanceState.getInt("max_number", 101);
         }
 
         recyclerView = (RecyclerView) view.findViewById(R.id.recyclerView);
@@ -68,9 +68,12 @@ public class NumbersFragment extends Fragment implements OnNumberClickListener {
     @Override
     public void onPause() {
         super.onPause();
-        Bundle bundle = new Bundle();
-        bundle.putInt("max_number", maxNumber);
-        setArguments(bundle);
+    }
+
+    @Override
+    public void onSaveInstanceState(@NonNull Bundle outState) {
+        super.onSaveInstanceState(outState);
+        outState.putInt("max_number", maxNumber);
     }
 
     @Override
