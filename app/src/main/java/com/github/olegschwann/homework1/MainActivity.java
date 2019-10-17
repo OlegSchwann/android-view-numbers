@@ -1,7 +1,7 @@
 package com.github.olegschwann.homework1;
 
-import android.support.annotation.ColorInt;
-import android.support.v7.app.AppCompatActivity;
+import androidx.annotation.ColorInt;
+import androidx.appcompat.app.AppCompatActivity;
 import android.os.Bundle;
 import android.util.Log;
 
